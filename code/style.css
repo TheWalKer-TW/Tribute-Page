@@ -1,13 +1,59 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-
-h1{
-    font-family: 'East Sea Dokdo', cursive;
-}
 /* 
 font-family: 'Bebas Neue', cursive;
 font-family: 'East Sea Dokdo', cursive;
 font-family: 'Poppins', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --margin-top: 3.5rem;
+}
+
+h1{
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+header{
+    overflow: hidden;
+}
+
+.header_nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.header_nav-a:hover{
+    border-bottom: 0.1rem;
+    border-color: white;
+}
+
+#img-div{
+    background: black;
+    justify-content: center;
+    justify-items: center;
+    margin-top: var(--margin-top);
+}
+
+#image{
+    width: 100%;
+    height: auto;
+    max-width: 2700px;
+}
+
+#img-caption{
+    color: white;
+    display: block;
+    justify-content: center;
+    align-self: center;
+}
