@@ -9,79 +9,86 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    <div class="header-div" id="Home">
-        <header class="header">
-            <nav class="header_nav">
-                <a class="header_nav-a" href="#Home">Home</a>
-                <a class="header_nav-a" href="#Time-Line">Time-Line</a>
-                <a class="header_nav-a" href="#Albums">Albums</a>
-                <a class="header_nav-a" href="#Quote">Quote</a>
-                <a class="header_nav-a" href="#More Info">More Info</a>
+    <div class="body">
+        <div class="nav-container">
+            <nav class="nav">
+                <a class="nav-a" href="#Home">Home</a>
+                <a class="nav-a" href="#Time-Line">Time-Line</a>
+                <a class="nav-a" href="#Albums">Albums</a>
+                <a class="nav-a" href="#Quote">Quote</a>
+                <a class="nav-a" href="#More Info">More Info</a>
             </nav>
-            <div id="img-div">
-                <img class="banner" id="image" src="../images/bannermgk.jpg" alt="Machine Gun Kelly's banner for 'Tickets to My Downfall'.">
-                <figcaption id="img-caption">Banner for last Machine Gun Kelly's album: <b>Tickets to My Downfall</b></figcaption>
+        </div>
+        <div class="header-div" id="Home">
+            <header class="header">
+                <div id="img-div">
+                    <img class="banner" id="image" src="../images/bannermgk.jpg" alt="Machine Gun Kelly's banner for 'Tickets to My Downfall'.">
+                    <figcaption id="img-caption">Banner for last Machine Gun Kelly's album: <b>Tickets to My Downfall</b></figcaption>
+                </div>
+            </header>
+            <div class="tribute-subject">
+                <div class="title">
+                    <h1 id="title-h1">MACHINE GUN KELLY</h1>
+                </div>
+                <p id="tribute-info">A tribute page to the one who made feel</p>
             </div>
-        </header>
-    </div>
-
-    <div class="container" id="main">
-        <div class="tribute-subject">
-            <div class="title">
-                <h1 id="title-h1">MACHINE GUN KELLY</h1>
-            </div>
-            <p id="tribute-info">A tribute page to the one who made feel</p>
         </div>
 
-        <div class="time-line" id="Time-Line">
-            <h2>Time-Line</h2>
-            <ul>
-                <li><b>22<sup>th</sup> april of 1990:</b> Colson Baker was born in Houston, Texas.</li>
-                <li><b>Agust 2012:</b> Baker self-released a mixtape titled <em>EST 4 Life</em>.</li>
-                <li><b>October 2012:</b> Lace Up album was released</li>
-                <li><b>June 2012:</b> Black Flag mixtape was released</li>
-                <li><b>July 2015:</b> Fuck It mixtape was released</li>
-                <li><b>October 2015:</b> General Admission album was released</li>
-                <li><b>May 2017:</b> Bloom album was released</li>
-                <li><b>July 2019:</b> Hotel Diablo album was released</li>
-                <li><b>September 2020:</b> Tickets to My Downfall album was released</li>
-            </ul>
-        </div>
+        <div class="container" id="main">
+            <div class="time-line bajar" id="Time-Line">
+                <div class="time-line_h2">
+                    <h2>Time-Line</h2>
+                </div>
+                <div class="time-line_ul">
+                    <ul>
+                        <li><b id="datetime">22<sup id="datetime">th</sup> April of 1990:</b> <b>Colson Baker</b> was born in Houston, Texas</li>
+                        <li><b id="datetime">Agust 2012:</b> Baker self-released a mixtape titled <b><em>EST 4 Life</em></b></li>
+                        <li><b id="datetime">October 2012:</b> <b><em>Lace Up</em></b> album was released</li>
+                        <li><b id="datetime">June 2012:</b> <b><em>Black Flag</em></b> mixtape was released</li>
+                        <li><b id="datetime">July 2015:</b> <b><em>Fuck It</em></b> mixtape was released</li>
+                        <li><b id="datetime">October 2015:</b> <b><em>General Admission</em></b> album was released</li>
+                        <li><b id="datetime">May 2017:</b> <b><em>Bloom</em></b> album was released</li>
+                        <li><b id="datetime">July 2019:</b> <b><em>Hotel Diablo</em></b> album was released</li>
+                        <li><b id="datetime">September 2020:</b> <b><em>Tickets to My Downfall</em></b> album was released</li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="albums" id="Albums">
-            <h2>Albums</h2>
-            <div class="albums-items" id="Tickets to My Downfall">
-                <img src="../images/TicketstoMyDownfall.png">
-                <b>Tickets to My Downfall</b>
+            <div class="albums bajar" id="Albums">
+                <h2>Albums</h2>
+                <div class="albums-items" id="Tickets to My Downfall">
+                    <img src="../images/TicketstoMyDownfall.png">
+                    <b>Tickets to My Downfall</b>
+                </div>
+                <div class="albums-items" id="Hotel Diablo">
+                    <img src="../images/HotelDiablo.png">
+                    <b>Hotel Diablo</b>
+                </div>
+                <div class="albums-items" id="Bloom">
+                    <img src="../images/Bloom.png">
+                    <b>Bloom</b>
+                </div>
+                <div class="albums-items" id="General Admission">
+                    <img src="../images/GeneralAdmission.jpg">
+                    <b>General Admission</b>
+                </div>
+                <div class="albums-items" id="Lace Up">
+                    <img src="../images/LaceUp.jpg">
+                    <b>Lace Up</b>
+                </div>
             </div>
-            <div class="albums-items" id="Hotel Diablo">
-                <img src="../images/HotelDiablo.png">
-                <b>Hotel Diablo</b>
+            
+            <div class="quote bajar" id="Quote">
+                <q>I don’t think that a lot of people understand, 
+                    that the person who’s crazy enough to think 
+                    he can change the world, actually can.</q>
             </div>
-            <div class="albums-items" id="Bloom">
-                <img src="../images/Bloom.png">
-                <b>Bloom</b>
-            </div>
-            <div class="albums-items" id="General Admission">
-                <img src="../images/GeneralAdmission.jpg">
-                <b>General Admission</b>
-            </div>
-            <div class="albums-items" id="Lace Up">
-                <img src="../images/LaceUp.jpg">
-                <b>Lace Up</b>
-            </div>
-        </div>
-        
-        <div class="quote" id="Quote">
-            <q>I don’t think that a lot of people understand, 
-                that the person who’s crazy enough to think 
-                he can change the world, actually can.</q>
-        </div>
 
-        <div class="moreinfo" id="More-Info">
-            <h3 class="moreinfo-p">In case you want to know <a class="moreinfo_p-link" id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Machine_Gun_Kelly_(musician)">more about Machine Gun Kelly's
-                life</a>. Or you want to <a href="https://open.spotify.com/artist/6TIYQ3jFPwQSRmorSezPxX">listen some of his music</a>.
-            </h3>
+            <div class="moreinfo bajar" id="More-Info">
+                <h3 class="moreinfo-p">In case you want to know <a class="moreinfo_p-link" id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Machine_Gun_Kelly_(musician)">more about Machine Gun Kelly's
+                    life</a>. Or you want to <a href="https://open.spotify.com/artist/6TIYQ3jFPwQSRmorSezPxX">listen some of his music</a>.
+                </h3>
+            </div>
         </div>
     </div>
 </body>
