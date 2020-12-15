@@ -142,3 +142,5 @@ albumsItems5.addEventListener('mouseleave', (e)=>{
     albumTitle5.style.transform = 'translateZ(0px) scaleX(1) scaleY(1)';
     imgAlbum5.style.transform = 'translateZ(0px) translateX(0px) translateY(0px) scaleX(1) scaleY(1)';
 });
+
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
